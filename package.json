@@ -1,0 +1,37 @@
+{
+  "name": "employee-managment-system",
+  "version": "1.0.0",
+  "description": "Create a Restful API and database for an employee management system. The API should allow the following operations:",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-watch": "^7.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel server.js --out-dir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rachelakimana/Employee-managment-system.git"
+  },
+  "keywords": [
+    "learn",
+    "bwilding",
+    "API",
+    "in",
+    "javascript"
+  ],
+  "author": "Rachel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rachelakimana/Employee-managment-system/issues"
+  },
+  "homepage": "https://github.com/rachelakimana/Employee-managment-system#readme"
+}
